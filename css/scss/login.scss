@@ -1,0 +1,84 @@
+@import "../main";
+
+#page_0{
+    //主页面中设置的背景图片
+    background-image: url(../images/background_img.png);
+    .text{
+        color:#ffffff;
+        margin-bottom: pxToRem(31px);
+    }
+}
+
+#body_login{
+    //浮动页面
+    .logo_img{
+        //logo的图片设置和上下左右的距离设置
+        background-image: url(../images/logo_img.png);
+        width: pxToRem(393px);
+        height: pxToRem(455px);
+        margin: pxToRem(109px) auto pxToRem(79px) auto;
+    }
+    .form_part{
+        //登录表单区域的背景颜色和左右距离设置
+        background-color:rgba(145,213,251,0.8);
+        margin: 0 pxToRem(73px) pxToRem(123px) pxToRem(73px);
+        padding: pxToRem(60px) pxToRem(76px);
+        border-radius: pxToRem(10px);
+        .user_pwd_mar{
+            //用户和密码这两行之间的距离
+            margin-bottom: pxToRem(34px);
+        }
+        .uinput{
+            //用户这行的设置
+            background-color: #ffffff;
+            height:pxToRem(82px);
+            border-radius: pxToRem(10px);
+            .user_img_part{
+                //带有背景色的用户图标的这个区域的设置
+                background-color: #47e1fa;
+                width: pxToRem(80px);
+                border-top-left-radius:pxToRem(10px);
+                border-bottom-left-radius:pxToRem(10px);
+                .user_img{
+                    //用户图标的设置
+                    background-image: url(../images/user_img.png);
+                    width: pxToRem(46px);
+                    height: pxToRem(40px);
+                }
+            }
+            .pwd_img_part{
+                //带有背景色的密码图标的这个区域的设置
+                background-color: #47aff9;
+                width: pxToRem(80px);
+                border-top-left-radius:pxToRem(10px);
+                border-bottom-left-radius:pxToRem(10px);
+                .pwd_img{
+                    //密码图标的设置
+                    background-image: url(../images/pwd_img.png);
+                    width: pxToRem(46px);
+                    height: pxToRem(40px);
+                }
+            }
+            input{
+                height: pxToRem(82px);
+                padding: 0 0 0 pxToRem(25px);
+            }
+        }
+        .del_img{
+            //删除图标的设置
+            background-image: url(../images/del_img.png);
+            width: pxToRem(29px);
+            height: pxToRem(29px);
+            margin-right: pxToRem(10px);
+        }
+        .login_btn{
+            //按钮的样式设置
+            background-color: #31b2ff;
+            color: #ffffff;
+            height: pxToRem(80px);
+            margin-top: pxToRem(80px);
+            border-radius: pxToRem(10px);
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.debug_show {
+  display: block;
+  z-index: 9999;
+  background: red;
+  width: 100%;
+  padding: 5px; }
+
+#page_0 {
+  background-image: url(../images/background_img.png); }
+  #page_0 .text {
+    color: #ffffff;
+    margin-bottom: 0.96875rem; }
+
+#body_login .logo_img {
+  background-image: url(../images/logo_img.png);
+  width: 12.28125rem;
+  height: 14.21875rem;
+  margin: 3.40625rem auto 2.46875rem auto; }
+#body_login .form_part {
+  background-color: rgba(145, 213, 251, 0.8);
+  margin: 0 2.28125rem 3.84375rem 2.28125rem;
+  padding: 1.875rem 2.375rem;
+  border-radius: 0.3125rem; }
+  #body_login .form_part .user_pwd_mar {
+    margin-bottom: 1.0625rem; }
+  #body_login .form_part .uinput {
+    background-color: #ffffff;
+    height: 2.5625rem;
+    border-radius: 0.3125rem; }
+    #body_login .form_part .uinput .user_img_part {
+      background-color: #47e1fa;
+      width: 2.5rem;
+      border-top-left-radius: 0.3125rem;
+      border-bottom-left-radius: 0.3125rem; }
+      #body_login .form_part .uinput .user_img_part .user_img {
+        background-image: url(../images/user_img.png);
+        width: 1.4375rem;
+        height: 1.25rem; }
+    #body_login .form_part .uinput .pwd_img_part {
+      background-color: #47aff9;
+      width: 2.5rem;
+      border-top-left-radius: 0.3125rem;
+      border-bottom-left-radius: 0.3125rem; }
+      #body_login .form_part .uinput .pwd_img_part .pwd_img {
+        background-image: url(../images/pwd_img.png);
+        width: 1.4375rem;
+        height: 1.25rem; }
+    #body_login .form_part .uinput input {
+      height: 2.5625rem;
+      padding: 0 0 0 0.78125rem; }
+  #body_login .form_part .del_img {
+    background-image: url(../images/del_img.png);
+    width: 0.90625rem;
+    height: 0.90625rem;
+    margin-right: 0.3125rem; }
+  #body_login .form_part .login_btn {
+    background-color: #31b2ff;
+    color: #ffffff;
+    height: 2.5rem;
+    margin-top: 2.5rem;
+    border-radius: 0.3125rem;
+    font-weight: bold; }
